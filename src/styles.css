@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+}
+.appName {
+  width: 50%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 29px;
+}
+.addTask {
+  width: 50%;
+  text-align: right;
+  padding-right: 10%;
+}
+.addTask button {
+  background: green;
+  border: 2px solid green;
+  border-radius: 60%;
+}
